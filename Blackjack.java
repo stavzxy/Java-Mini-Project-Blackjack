@@ -1,26 +1,9 @@
-// ========================= BLACKJACK GAME PROJECT =============================
-// MINI PROJECT - JAVA VERSION
-// ----------------------------------------------------------------------------
-// This program simulates the Blackjack casino card game.
-// It is the Java conversion of our previous Python mini project.
-// The goal is to create a simple console-based Blackjack game
-// where the player plays against the dealer.
-// ----------------------------------------------------------------------------
-// What this program demonstrates (for practical / viva explanation):
-// ✔ Object-Oriented Thinking using Java Classes & Collections
-// ✔ Usage of ArrayList, HashMap, Functions & Game Logic
-// ✔ Conditional Statements, Loops, Input Handling
-// ✔ Proper commenting + readable structured coding
-// ----------------------------------------------------------------------------
-// BASIC GAME RULES WE IMPLEMENT:
-// 1) Both Player & Dealer get 2 cards from shuffled deck
-// 2) Player chooses Hit (take more cards) or Stand (stop)
-// 3) If player score > 21 → Player Busts → Dealer Wins
-// 4) Dealer must draw until score >= 17
-// 5) If dealer > 21 → Dealer Busts → Player Wins
-// 6) Otherwise higher score wins, equal = tie
-// 7) Ace is handled intelligently (can be 11 or 1 based on score)
-// ----------------------------------------------------------------------------
+// ================= BLACKJACK GAME =================
+// Java console-based Blackjack game.
+// Player plays against computer-controlled dealer following Blackjack rules.
+// This project demonstrates Java Collections, loops, conditions, scanning input
+// and logical program structuring in a real-world style application.
+// ===================================================
 
 import java.util.ArrayList;
 import java.util.Arrays;
